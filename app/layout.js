@@ -30,7 +30,9 @@ export default function RootLayout({ children }) {
             enableSystem
             disableTransitionOnChange
           >
-           {/* working here  */}
+
+            {/* header */}
+           {/* working here for dark theme */}
 
             {children}
           </ThemeProvider>
